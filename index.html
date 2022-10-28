@@ -6,21 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CL MEDIA</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container-header">
             <div class="logo">
-                <img src="./img/LOGO CLMEDIA.png" alt="Logo CL media">
+                <img src="./assets/img/logo CLMEDIA.png" alt="Logo CL media">
             </div>
             <div class="container-nav">
                 <nav>
                     <ul>
-                        <li><a href="#"></a>SERVICIOS</li>
-                        <li><a href="#"></a>PORTAFOLIO</li>
-                        <li><a href="#"></a>CONTACTO</li>
-                        <li><a href="#"></a>NOSOTROS</li>
-                        <li><a href="#"></a>ESP/ING</li>
+                        <li><a href="#">SERVICIOS</a></li>
+                        <li><a href="#">PORTAFOLIO</a></li>
+                        <li><a href="#">CONTACTO</a></li>
+                        <li><a href="#">NOSOTROS</a></li>
+                        <li><a href="#">ESP/ING</a></li>
+                        <a><img class="navIg" src="/assets/icons/instagram.png" alt=""></a>
                     </ul>
                 </nav>
             </div>
@@ -28,67 +30,94 @@
     </header>
 
     <section class="container-info">
-        <div>
-            <h1>CREAMOS <span class="spanInfo"> EXPEREIENCIAS </span>  <br> 
-                PROYECTAMOS <span class="spanInfo">EN GRANDE</span></h1> <br>
-                <p>
-                    Somos un equipo de creativos de la comunicación, 
-                    el arte y el diseño. 
-                    Acompañamos la creación y desarrollo de proyectos, 
-                    brindando herramientas para mostrarlo al mundo.
-                </p>
-                <button class="callToAction">Contactanos</button><button class="callToAction-2">Ver Servicios</button>
-        </div>
-        <div></div>
+        <div class="container">    
+            <div class="info">
+                <h1>CREAMOS <span class="spanInfo"> EXPERIENCIAS </span>  <br> 
+                    PROYECTAMOS <span class="spanInfo">EN GRANDE</span></h1> <br>
+                    <p>
+                        Somos un equipo de creativos de la comunicación, 
+                        el arte y el diseño. 
+                        Acompañamos la creación y desarrollo de proyectos, 
+                        brindando herramientas para mostrarlo al mundo.
+                    </p>
+                    <button class="callToAction">Contactanos</button><button class="callToAction2">Ver Servicios</button>
+            </div>
+        </div>    
     </section>
 
     <section class="container-servicios">
         <div class="servicios">
             <div class="servicio-box">
-                <h3>Diseño WEB UX/UI</h3>
+                <img src="/assets/icons/diseñoWebUxUi.png" alt=" Diseño web, diseño UX UI">
+                <h2>Diseño WEB UX/UI</h2>
             </div>
             <div class="servicio-box">
-                <h3>BRANDING & DISEÑO GRAFICO</h3>
+                <img src="/assets/icons/bandingDiseñoGrafico.png" alt=" Branding y diseño gráfico">
+                <h2>BRANDING & DISEÑO GRAFICO</h2>
             </div>
             <div class="servicio-box">
-                <H3>PRODUCCIÓN AUDIOVISUAL</H3>
+                <img src="/assets/icons/produccionAudiovisual.png" alt="Producción Audiovisual">
+                <h2>PRODUCCIÓN AUDIOVISUAL</h2>
             </div>
             <div class="servicio-box">
-                <H3>MARKETING DIGITAL</H3>
+                <img src="/assets/icons/marketingDigital.png" alt="Marketing Digital">
+                <h2>MARKETING DIGITAL</h2>
             </div>
             <div class="servicio-box">
-                <H3>COMMUNITY MANAGMENT</H3>
+                <img src="/assets/icons/communityManagement.png" alt="Comunity Management">
+                <h2>COMMUNITY MANAGMENT</h2>
             </div>
             <div class="servicio-box">
-                <H3>CREACIÓN DE CONTENIDO</H3>
+                <img src="/assets/icons/creacionDeContenido.png" alt="Creación de contenido">
+                <h2>CREACIÓN DE CONTENIDO</h2>
             </div>
         </div>
-        <div>
-            <p>SERVICIOS</p>
-            <h2>Enfocados en crear las <span>mejores soluciones</span></h2>
+        <div class="servicio-info">
+            <h2 class="titulo">SERVICIOS</h2>
+            <h3>Enfocados en crear las <span>mejores soluciones</span></h3>
             <p>Entendemos que “un buen diseño significa un buen negocio.” Por eso ayudamos a nuestros clientes a generar o potenciar su propia identidad digital, mediante el diseño, el marketing y la comunicación eficiente.</p>
             <button class="callToAction">Contactanos</button>
         </div>
     </section>
 
+    <section class="pasos">
+        <div class="paso">
+            <img src="/assets/icons/estrategia.png" alt="Estrategia">
+            <p>Estudiamos tu caso y definimos la</p>
+            <h2>1. ESTRATEGIA</h2>
+            <h3>PRIMERO LO PRIMERO</h3>
+        </div>
+        <div class="paso">
+            <img src="/assets/icons/diseño.png" alt="Estrategia">
+            <p>Con objetivos claros, avanzamos al</p>
+            <h2>2. DISEÑO</h2>
+            <h3>¡CREAR, CREAR, CREAR!</h3>
+        </div>
+        <div class="paso"><img src="/assets/icons/accion.png" alt="Estrategia">
+            <p>Con lo creado, vamos a la</p>
+            <h2>3. ACCIÓN</h2>
+            <h3>PRIMERO LO PRIMERO</h3>
+        </div>
+    </section>
+
     <section class="container-portafolio">
-        <div>
-            <p>PORTAFOLIO</p>
-            <H2>Nuestras <br>
-            <span>Experiencias</span></H2>
+        <div class="portafolio-titulo">
+            <h2 class="titulo">PORTAFOLIO</h2>
+            <h3>Nuestras <br>
+            <span>Experiencias</span></h3>
         </div>
         <div class="portafolio-flex">
             <div>
-                <img src="./img/Aquí y ahora.png" alt="Proyecto Aquí y Ahora">
-                <h3>AQUÍ | AHORA</h3>
+                <img src="assets/img/Aquí y ahora.png" alt="Proyecto Aquí y Ahora">
+                <h2>AQUÍ | AHORA</h2>
             </div>
             <div>
-                <img src="./img/Daniela Salinas.png" alt="Proyecto Daniela Salinas">
-                <h3>DANIELA SALINAS</h3>
+                <img src="assets/img/Daniela Salinas.png" alt="Proyecto Daniela Salinas">
+                <h2>DANIELA SALINAS</h2>
             </div>
             <div>
-                <img src="./img/PODI.png" alt="Proyecto PODI">
-                <h3>PODI</h3>
+                <img src="assets/img/PODI.png" alt="Proyecto PODI">
+                <h2>PODI</h2>
             </div>
         </div>
     </section>
@@ -96,30 +125,30 @@
     <section class="container-equipo">
         <div class="equipo">
             <div class="equipo-box">
-                <img src="./img/Cesar Lefiñanco.png" alt="Cesar Lefiñanco">
-                <h3>CESAR LEFIÑANCO</h3>
+                <img src="assets/img/Cesar Lefiñanco.png" alt="Cesar Lefiñanco">
+                <h2>CESAR LEFIÑANCO</h2>
                 <H4>Director Creativo</H4>
             </div>
             <div class="equipo-box">
-                <img src="./img/Mauro Perasso.png" alt="Mauro Perasso">
-                <h3>MAURO PERASSO</h3>
+                <img src="assets/img/Mauro Perasso.png" alt="Mauro Perasso">
+                <h2>MAURO PERASSO</h2>
                 <H4>Diseño Gáfico</H4>
                 
             </div>
             <div class="equipo-box">
-                <img src="./img/Maria Villalba.png" alt="Maria Villalba">
-                <h3>MARIA VILLALBA</h3>
+                <img src="assets/img/Maria Villalba.png" alt="Maria Villalba">
+                <h2>MARIA VILLALBA</h2>
                 <H4>COMUNICAIÓN Y CONTENIDO</H4>
             </div>
             <div class="equipo-box">
-                <img src="./img/Facundo Zuñiga.png" alt="Facundo Zuñiga">
-                <h3>FACUNDO ZUÑIGA</h3>
+                <img src="assets/img/Facundo Zuñiga.png" alt="Facundo Zuñiga">
+                <h2>FACUNDO ZUÑIGA</h2>
                 <H4>Produccón multimedia</H4>
             </div>
         </div>
         <div>
-            <p>CONOCE AL QUIPO</p>
-            <H2>Somos tu nuevo <span>aliado digital</span></H2>
+            <h2 class="titulo">CONOCE AL EQUIPO</h2>
+            <h3>Somos tu nuevo <span>aliado digital</span></h3>
             <p>Creamos experiencias digitales para proyectos, startups y emprendimientos que buscan un aliado en la creación de branding, productos y servicios. Somos un equipo comunicativo y dinámico, con una filosofía de trabajo humana y cercana para entender las necesidades de tu negocio o proyecto..</p>
             <button class="callToAction">Contactanos</button>
         </div>
@@ -127,12 +156,12 @@
 
     <section class="container-contacto">
         <div>
-            <p>CONTACTO</p>
+            <h2 class="titulo">CONTACTO</h2>
             <h2>Trabajemos <span>Juntos</span></h2>
             <a class="callToAction" href="mailto:crisespinosa@gmail.com">Contáctate</a>
         </div>
         <div>
-            <img src="./img/cesar-contacto 1.png" alt="CL media contactate">
+            <img src="assets/img/cesar-contacto 1.png" alt="CL media contactate">
         </div>
         
 
