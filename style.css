@@ -26,7 +26,7 @@
     font-weight: 900;
     background-color: rgb(181, 212, 59);
     color: #fff;
-    margin-top: 25px;
+    cursor: pointer;
 }
 
 .callToAction2{
@@ -38,7 +38,7 @@
     font-weight: 900;
     background-color: rgba(255, 255, 255, 0.1);
     color: #fff;
-    margin-top: 25px;
+    cursor: pointer;
 }
 
 .titulo{
@@ -65,7 +65,7 @@ header{
 .container-header{
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: auto;
     padding: 8px 20px;
@@ -146,6 +146,10 @@ nav ul li a{
     font-family: cocoExtra;
 }
 
+.info p{
+    margin-bottom: 25px;
+}
+
 .info .callToAction2{
     margin-left: 20px;
 }
@@ -172,6 +176,9 @@ nav ul li a{
 
 .servicio-info{
     max-width: 300px;
+}
+.servicio-info p{
+    margin-bottom: 30px;
 }
 .servicios{
     display: flex;
@@ -344,7 +351,9 @@ nav ul li a{
     margin-top: 50px;
     min-width: 300px
 }
-
+.equipo-info p{
+    margin-bottom: 30px;
+}
 .equipo-info h3{
     font-size: 50px;
 }
@@ -370,15 +379,12 @@ nav ul li a{
 
 .contacto-img{
     width: 50%;
-    height: 400px;
+    height: 450px;
     background-image: url(assets/img/cesar-contacto\ 1.png);
     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.contacto-img img{
-
-}
-
 
 .contacto-info{
     margin-left: 20%;
@@ -386,11 +392,41 @@ nav ul li a{
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    width: 100%;
-
+}
+.contacto-info h3{
+    margin-bottom: 30px;
 }
 
 .contacto-info h3 span{
     font-family: cocoExtra;
     color: #6B8801;
+}
+
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    background-color: #333333;
+    color: #E2E2E2;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-weight: 900;
+}
+
+footer h4{
+    color: #6B8801;
+}
+.footer-info{
+    margin: 0 20px;
+}
+.copy{
+    text-align: center;
+    height: 25px;
+    padding-bottom: 20px;
+    color: #E2E2E2;
+    background-color: #333333;
 }
