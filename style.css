@@ -13,6 +13,7 @@
     text-decoration: none;
     font-family: cocoLight;
     font-weight: 100;
+
 }
 
 /* GENERALES */
@@ -65,9 +66,10 @@ header{
     height: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: auto;
     padding: 8px 20px;
-    max-width: 1200px;
+
 }
 
 header .logo{
@@ -125,6 +127,7 @@ nav ul li a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .info{
@@ -151,10 +154,11 @@ nav ul li a{
 
 .container-servicios{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    max-width: 1200px;
-    margin: 50px auto;
+    flex-wrap: wrap;
+    margin: 110px auto;
+    width: 100%;
 }
 
 .container-servicios h3{
@@ -171,10 +175,17 @@ nav ul li a{
 }
 .servicios{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.servicio-3{
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 50%;
 }
 
 .servicio-box{
@@ -192,12 +203,14 @@ nav ul li a{
 
 .servicio-box img {
     width: 50px;
+    margin-bottom: 20px;
 }
 
 .servicio-box h2 {
     font-size: 16px;
     text-align: center;
     color:#989898 ;
+    font-weight: 900;
 }
 
 /* PASOS */
@@ -235,10 +248,9 @@ nav ul li a{
 
 /* PORTAFOLIO */
 .container-portafolio{
-    margin-top: 50px;
+    margin: 110px 0;
 }
 .portafolio-titulo{
-    max-width: 1200px;
     margin-left: 10%;
     margin-bottom: 50px;
 }
@@ -278,12 +290,12 @@ nav ul li a{
 
 /* EQUIPO*/
 .container-equipo{
-    background-color: aqua;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap:wrap ;
     width: 100%;
+    margin: 100px 0;
 }
 
 .equipo{
@@ -300,13 +312,13 @@ nav ul li a{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap:wrap ;
-    margin: 20px;
+    padding: 20px;
 
 }
 .equipo-img{
     width: 200px;
     box-shadow: 0px 20px 24px -4px rgba(15, 30, 4, 0.08), 0px 8px 8px -4px rgba(16, 40, 17, 0.03);
-    border-radius: 100px;   
+    border-radius: 95px;   
 }
 
 .equipo-box h2{
@@ -328,6 +340,9 @@ nav ul li a{
 
 .equipo-info{
     width: 40%;
+    max-width: 400px;
+    margin-top: 50px;
+    min-width: 300px
 }
 
 .equipo-info h3{
@@ -338,4 +353,44 @@ nav ul li a{
     font-family: cocoExtra;
     font-weight: 300;
     color: #6B8801; 
+}
+
+/*CONTACTO*/
+.container-contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 450px;
+    width: 100%;
+}
+
+.container-contacto h3{
+    font-size: 50px;
+}
+
+.contacto-img{
+    width: 50%;
+    height: 400px;
+    background-image: url(assets/img/cesar-contacto\ 1.png);
+    background-position: center center;
+}
+
+.contacto-img img{
+
+}
+
+
+.contacto-info{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.contacto-info h3 span{
+    font-family: cocoExtra;
+    color: #6B8801;
 }
