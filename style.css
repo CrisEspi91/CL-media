@@ -52,14 +52,16 @@ p{
     font-family: Roboto;
     font-weight: 300;
 }
+
 /* HEADER */
 header{
     width: 100%;
-    height: 50px;
+    height: 80px;
     position: fixed;
-    background-color: #F6F6F6;
     top: 0;
     right: 0;
+    transition: all 300ms;
+    color: white;
 }
 
 .container-header{
@@ -68,7 +70,8 @@ header{
     justify-content: space-around;
     flex-wrap: wrap;
     margin: auto;
-    padding: 8px 20px;
+    padding: 8px 0px;
+    width: 1600px;
 
 }
 
@@ -81,6 +84,9 @@ header .logo{
 
 .logo img{
     width: 120px;
+}
+.logo-negro{
+    display: none;
 }
 
 nav{
@@ -101,21 +107,19 @@ nav ul{
 
 nav ul li{
     margin-left: 20px;
-    color: black;
     list-style-type: none;
     font-size: 12px;
     
 }
 
 nav ul li a{
-    color: black;
+    color: inherit;
     font-weight: 900;
     letter-spacing: 2px;
 }
 
-.navIg{
-    width: 20px;
-    margin-left: 20px;
+.navIg i{
+    color: #6B8801;
 }
 
 .nav-btn{
@@ -125,23 +129,42 @@ nav ul li a{
     display: none;
 }
 
+
+.nav-change{
+    background-color: #F7F7F7;
+    color: #333333;
+    box-shadow: 0px 32px 64px -12px rgba(16, 24, 40, 0.14);
+    height: 50px;
+}
+
 /* PORTADA */
 
 .container-info{
     background-image:url(assets/img/Clmedia.webp);
-    height: 600px;
-    margin-top: 50px auto;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container-flex{
+    height: 600px;
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 1600px;
 }
 
 .info{
+    margin-top: 100px;
     max-width: 350px;
     color: #fff;
-    margin-left: 10%;
-
+    width: 50%;
+}
+.info-50{
+    width: 50%;
 }
 
 .info h1{
@@ -164,13 +187,14 @@ nav ul li a{
 
 /* SERVICIOS */
 
-.container-servicios{
+
+.servicios-flex{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     margin: 110px auto;
-    width: 100%;
+    width: 1600px;
 }
 
 .container-servicios h3{
@@ -191,11 +215,10 @@ nav ul li a{
 }
 .servicios{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 50%;
 }
 .servicio-3{
     display: flex;
@@ -230,13 +253,18 @@ nav ul li a{
 }
 
 /* PASOS */
+.pasos-container{
+    width: 100%;
+    background-color: #E2E2E2;
+}
 .pasos{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #E2E2E2;
     min-height: 300px;
+    width: 1600px;
+    margin: auto;
 }
 
 .paso{
@@ -245,6 +273,7 @@ nav ul li a{
     align-items: center;
     justify-content: space-evenly;
     height: 180px;
+
 }
 
 .paso img{
@@ -264,11 +293,17 @@ nav ul li a{
 
 /* PORTAFOLIO */
 .container-portafolio{
-    margin: 110px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portafolio{
+    width: 1600px;
+
 }
 .portafolio-titulo{
-    margin-left: 10%;
-    margin-bottom: 50px;
+    margin: 50px 0;
+    margin-left: 9.5%;
 }
 .portafolio-titulo h3{
    font-size: 50px;
@@ -284,131 +319,49 @@ nav ul li a{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    height: 500px;
+
 }
 
 .portafolio-card{
-    position: relative;
+    width: 330px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
     margin: 30px 0;
     box-shadow: 0px 32px 64px -12px rgba(16, 24, 40, 0.14);
+    transition: all 0.3s;
+    overflow: hidden;
+}
+.portafolio-img{
+    width: 100%;
+    height: 200px;
 }
 
-.portafolio-card img{
-    width: 400px;
-    object-fit: cover;
-}
+.portafolio-card:hover{
+    box-shadow: 0px 32px 44px -12px rgba(3, 8, 20, 0.406);
+   }
+
 .card-titulo{
-    height: 50px;
     display: flex;
     justify-content:center;
     align-items: center;
-    background-color: #f6f6f6ec;
-    width: 100%;
-    margin-top: -50px;
-    border-radius: 4px 4px 0 0;
-}
-
-.card-titulo h2{
+    background-color: #f6f6f6;
+    padding: 20px 0;
     font-family: cocoExtra;
     font-weight: 900;
     font-size: 16px;
     letter-spacing: 4px;
-}
-
-/* PORTAFOLIO */
-.title{
-    text-align: center;
-    margin-top: 80px;
-    font-size: 40px;
-    text-transform: uppercase;
-    color: white;
-}
-
-.container__slider{
-    
-    max-width: 800px;
-    height: 400px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 10px;
-}
-
-input[type=radio]{
-    display: none;
-}
-
-.container{
-    width: 100%;
-    max-width: 800px;
-    height: 100%;
-    max-height: 400px;
-    transform-style: preserve-3d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cards{
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.card{
-    position: absolute;
-    width: 60%;
-    height: 100%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    cursor: pointer;
-    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    -o-object-fit: cover;
-    object-fit: cover;
+    margin-top: -10px;
 }
 
 
-#item-2:checked ~ .cards #selector-1,
-#item-1:checked ~ .cards #selector-3,
-#item-3:checked ~ .cards #selector-2{
-    transform: translateX(-40%) scale(0.8);
-    opacity: 0.6;
-    z-index: 0;
-}
-
-#item-3:checked ~ .cards #selector-1,
-#item-1:checked ~ .cards #selector-2,
-#item-2:checked ~ .cards #selector-3{
-    transform: translateX(40%) scale(0.8);
-    opacity: 0.6;
-    z-index: 0;
-}
-
-#item-1:checked ~ .cards #selector-1,
-#item-2:checked ~ .cards #selector-2,
-#item-3:checked ~ .cards #selector-3{
-    transform: translateX(0) scale(1);
-    z-index: 1;
-}
 /* EQUIPO*/
 .container-equipo{
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap:wrap ;
-    width: 100%;
+    width: 1600px;
     margin: 100px 0;
 }
 
@@ -417,7 +370,7 @@ img{
     justify-content: space-evenly;
     align-items: center;
     flex-wrap:wrap ;
-    width: 50%;
+
 }
 
 .equipo-box{
@@ -453,10 +406,14 @@ img{
 
 
 .equipo-info{
-    width: 40%;
-    max-width: 400px;
-    margin-top: 50px;
-    min-width: 300px
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipo-texto{
+    max-width: 500px;
 }
 .equipo-info p{
     margin-bottom: 30px;
@@ -484,10 +441,15 @@ img{
 .container-contacto h3{
     font-size: 50px;
 }
+.contacto-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
 
 .contacto-img{
     width: 50%;
-    
     background-image: url(assets/img/cesar-contacto\ 1.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -495,7 +457,7 @@ img{
 }
 
 .contacto-info{
-    margin-left: 20%;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -540,12 +502,18 @@ footer h4{
 }
 
 @media only screen and (max-width: 768px) {
+     /*servicio*/
     .container-header{
-        justify-content: space-between;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
     }
+    
     .logo img{
         width: 120px;
     }
+
+
     nav{
       position: fixed;
       top: 0;
@@ -555,6 +523,7 @@ footer h4{
       height: 100vh;
       padding: 40px;
       z-index: 1;
+      color: #333333;
       transition: all 300ms;
     }
 
@@ -604,11 +573,28 @@ footer h4{
         background: rgba(0,0,0,0.5);
         display: none;
     }
+    /*porada*/
+    header{
+        height: 50px;
+        background-color: #FFFFFF;
+    }
+    .container-flex{
+        width: 100%;
+    }
+    .info{
+        margin-top: 100px;
+        width: 100%;
+        padding: 8px;
+    }
+
     /*servicio*/
     .servicios{
         flex-direction: row;
         justify-content: center;
         flex-wrap: nowrap;
+    }
+    .servicios-flex{
+        width: 100%;
     }
     .container-servicios{
         flex-direction: column-reverse;
@@ -629,10 +615,20 @@ footer h4{
     .servicio-box img{
         width: 40px;
     }
+    /*pasos*/
+    .pasos{
+        width: 100%;
+    }
+    /* PORTAFOLIO */
+    .portafolio{
+        width: 100%;
+    
+    }
     /*equipo*/
     .container-equipo {
         flex-direction: column-reverse;
         align-items: center;
+        width: 100%;
     }
 
     .equipo-info{
@@ -655,8 +651,18 @@ footer h4{
 
   .equipo-info{
     text-align: center;
+    width: 90%;
   }
+   /*portafoio*/
+   .portafolio-card{
+    margin-top: 70px;
+    width: 350px;
+   }
 
+  .portafolio-card img{
+    width: inherit;
+    height: auto;
+  }
   .container-contacto{
     width: 100%;
     height: 300px;
@@ -670,6 +676,7 @@ footer h4{
     margin: auto;
     align-items: center;
 }
+
 
 .contacto-img{
     display: none;

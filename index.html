@@ -5,30 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CL MEDIA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="container-header">
             <div class="logo">
-                <img src="assets/img/logo CLMEDIA.png" alt="Logo CL media">
+                <img id="logo-blanco" class="logo-blanco" src="assets/img/logo CLMEDIA.png" alt="Logo CL media">
+                <img class="logo-negro" id="logo-negro" src="assets/img/logo CLMEDIA negro.png" alt="Logo CL media">
             </div>
             <div class="container-nav">
                 <button id="nav-btn" class="nav-btn"><img  src="assets/icons/menu 2.png" alt="Boton navegador"></button>
                 <a href="" ></a>
                 <div id="black-nav"></div>
                 <nav id="nav">
-                    <img class="nav-logo-mobile" src="assets/img/logo CLMEDIA.png" alt="Logo CL media">
+                    <img class="nav-logo-mobile" src="assets/img/logo CLMEDIA negro.png" alt="Logo CL media">
                     <ul>
                         <li><a href="#servicios">SERVICIOS</a></li>
                         <li><a href="#portafolio">PORTAFOLIO</a></li>
                         <li><a href="#nosotros">NOSOTROS</a></li>
                         <li><a href="#contacto">CONTACTO</a></li>
                         <li><a href="#">ESP/ING</a></li>
-                        <a><img class="navIg" src="assets/icons/instagram.png" alt="Instagram"></a>
+                        <a class="navIg" href="/"><i class='bx bxl-instagram'></i></a>
+                        <i class='bx bxl-instagram'></i>
                     </ul>
                 </nav>
             </div>
@@ -37,8 +39,8 @@
     </header>
 
     <section class="container-info">
-        <div class="container">    
-            <div class="info">
+        <div class="container-flex"> 
+            <div class="info ">
                 <h1>CREAMOS <span class="spanInfo"> EXPERIENCIAS </span>  <br> 
                     PROYECTAMOS <span class="spanInfo">EN GRANDE</span></h1> <br>
                     <p>
@@ -48,139 +50,107 @@
                         brindando herramientas para mostrarlo al mundo.
                     </p>
                     <a href="#contacto"><button class="callToAction">Contactanos</button></a>
-                    <a href="#servicios"><button class="callToAction2">Ver Servicios</button></a>
-                    
+                    <a href="#servicios"><button class="callToAction2">Ver Servicios</button></a>           
             </div>
+            <div class="info-50"></div>
         </div>    
     </section>
 
     <div id="servicios"></div>
     <section class="container-servicios">
-        <div class="servicios">
-            <div class="servicio-3">
-                <div class="servicio-box">
-                    <img src="assets/icons/diseñoWebUxUi.png" alt=" Diseño web, diseño UX UI">
-                    <h2>DISEÑO WEB UX/UI</h2>
-                </div>
-                <div class="servicio-box">
-                    <img src="assets/icons/bandingDiseñoGrafico.png" alt=" Branding y diseño gráfico">
-                    <h2>BRANDING & DISEÑO GRAFICO</h2>
-                </div>
-                <div class="servicio-box">
-                    <img src="assets/icons/produccionAudiovisual.png" alt="Producción Audiovisual">
-                    <h2>PRODUCCIÓN AUDIOVISUAL</h2>
-                </div>
-            </div>    
-            <div class="servicio-3">    
-                <div class="servicio-box">
-                    <img src="assets/icons/marketingDigital.png" alt="Marketing Digital">
-                    <h2>MARKETING DIGITAL</h2>
-                </div>
-                <div class="servicio-box">
-                    <img src="assets/icons/communityManagement.png" alt="Comunity Management">
-                    <h2>COMMUNITY MANAGMENT</h2>
-                </div>
-                <div class="servicio-box">
-                    <img src="assets/icons/creacionDeContenido.png" alt="Creación de contenido">
-                    <h2>CREACIÓN DE CONTENIDO</h2>
+        <div class="servicios-flex">
+            <div class="servicios ">
+                <div class="servicio-3">
+                    <div class="servicio-box">
+                        <img src="assets/icons/diseñoWebUxUi.png" alt=" Diseño web, diseño UX UI">
+                        <h2>DISEÑO WEB UX/UI</h2>
+                    </div>
+                    <div class="servicio-box">
+                        <img src="assets/icons/bandingDiseñoGrafico.png" alt=" Branding y diseño gráfico">
+                        <h2>BRANDING & DISEÑO GRAFICO</h2>
+                    </div>
+                    <div class="servicio-box">
+                        <img src="assets/icons/produccionAudiovisual.png" alt="Producción Audiovisual">
+                        <h2>PRODUCCIÓN AUDIOVISUAL</h2>
+                    </div>
+                </div>    
+                <div class="servicio-3">    
+                    <div class="servicio-box">
+                        <img src="assets/icons/marketingDigital.png" alt="Marketing Digital">
+                        <h2>MARKETING DIGITAL</h2>
+                    </div>
+                    <div class="servicio-box">
+                        <img src="assets/icons/communityManagement.png" alt="Comunity Management">
+                        <h2>COMMUNITY MANAGMENT</h2>
+                    </div>
+                    <div class="servicio-box">
+                        <img src="assets/icons/creacionDeContenido.png" alt="Creación de contenido">
+                        <h2>CREACIÓN DE CONTENIDO</h2>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="servicio-info">
-            <h2 class="titulo">SERVICIOS</h2>
-            <h3>Enfocados en crear las <span>mejores soluciones</span></h3>
-            <p>Entendemos que “un buen diseño significa un buen negocio.” Por eso ayudamos a nuestros clientes a generar o potenciar su propia identidad digital, mediante el diseño, el marketing y la comunicación eficiente.</p>
-            <a href="#contacto"><button class="callToAction">Contactanos</button></a>
-            
+        
+            <div class="servicio-info">
+                <h2 class="titulo">SERVICIOS</h2>
+                <h3>Enfocados en crear las <span>mejores soluciones</span></h3>
+                <p>Entendemos que “un buen diseño significa un buen negocio.” Por eso ayudamos a nuestros clientes a generar o potenciar su propia identidad digital, mediante el diseño, el marketing y la comunicación eficiente.</p>
+                <a href="#contacto"><button class="callToAction">Contactanos</button></a>
+                
+            </div>
         </div>
     </section>
 
-    <section class="pasos">
-        <div class="paso">
-            <img src="assets/icons/estrategia.png" alt="Estrategia">
-            <p>Estudiamos tu caso y definimos la</p>
-            <h2>1. ESTRATEGIA</h2>
-            <h3>PRIMERO LO PRIMERO</h3>
-        </div>
-        <div class="paso">
-            <img src="assets/icons/diseño.png" alt="Estrategia">
-            <p>Con objetivos claros, avanzamos al</p>
-            <h2>2. DISEÑO</h2>
-            <h3>¡CREAR, CREAR, CREAR!</h3>
-        </div>
-        <div class="paso"><img src="assets/icons/accion.png" alt="Estrategia">
-            <p>Con lo creado, vamos a la</p>
-            <h2>3. ACCIÓN</h2>
-            <h3>PRIMERO LO PRIMERO</h3>
+    <section class="pasos-container">
+        <div class="pasos">
+            <div class="paso">
+                <img src="assets/icons/estrategia.png" alt="Estrategia">
+                <p>Estudiamos tu caso y definimos la</p>
+                <h2>1. ESTRATEGIA</h2>
+                <h3>PRIMERO LO PRIMERO</h3>
+            </div>
+            <div class="paso">
+                <img src="assets/icons/diseño.png" alt="Estrategia">
+                <p>Con objetivos claros, avanzamos al</p>
+                <h2>2. DISEÑO</h2>
+                <h3>¡CREAR, CREAR, CREAR!</h3>
+            </div>
+            <div class="paso"><img src="assets/icons/accion.png" alt="Estrategia">
+                <p>Con lo creado, vamos a la</p>
+                <h2>3. ACCIÓN</h2>
+                <h3>PRIMERO LO PRIMERO</h3>
+            </div>
         </div>
     </section>
 
     <div id="portafolio"></div>
- 
-        <section class="container-portafolio">
-            <div class="portafolio-titulo">
-                <h2 class="titulo">PORTAFOLIO</h2>
-                <h3>Nuestras <br>
-                <span>Experiencias</span></h3>
-            </div>
-            <div class="swiper mySwiper">            
-                <div class="swiper-wrapper portafolio-flex">
-                    <div class="portafolio-card">
-                        <img src="assets/img/Aquí y ahora.png" alt="Proyecto Aquí y Ahora">
-                        <div class="card-titulo">
-                            <h2>AQUÍ | AHORA</h2>
-                        </div>     
-                    </div>
-                    <div class="portafolio-card">
-                        <img src="assets/img/Daniela Salinas.png" alt="Proyecto Daniela Salinas">
-                        <div class="card-titulo">
-                            <h2>DANIELA SALINAS</h2>
+        <section class="container-portafolio">  
+            <div class="portafolio">
+                <div class="portafolio-titulo">
+                    <h2 class="titulo">PORTAFOLIO</h2>
+                    <h3>Nuestras <br>
+                    <span>Experiencias</span></h3>
+                </div>         
+                    <div class="portafolio-flex">
+                    <a href="">
+                        <div class="portafolio-card">
+                            <img class="portafolio-img" src="assets/img/Aquí y ahora.png" alt="Proyecto Aquí y Ahora">   
+                            <h2 class="card-titulo">AQUÍ | AHORA</h2>
                         </div>
-                        
-                    </div>
-                    
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </section>
-        <section>
-            <div class="container__slider">
-                <div class="container">
-                    <input type="radio" name="slider" id="item-1" checked>
-                    <input type="radio" name="slider" id="item-2">
-                    <input type="radio" name="slider" id="item-3">    
-                    <div class="cards">
-                        <label class="card" for="item-1" id="selector-1">
-                            <div class="portafolio-card">
-                                <img src="assets/img/PODI.png" alt="Proyecto PODI">
-                                <div class="card-titulo">
-                                    <h2>PODI</h2>
-                                </div>  
-                            </div>
-                        </label>
-                        <label class="card" for="item-2" id="selector-2">
-                            <div class="portafolio-card">
-                                <img src="assets/img/Daniela Salinas.png" alt="Proyecto Daniela Salinas">
-                                <div class="card-titulo">
-                                    <h2>DANIELA SALINAS</h2>
-                                </div>
-                                
-                            </div>
-                        </label>
-                        <label class="card" for="item-3" id="selector-3">
-                            <div class="portafolio-card">
-                                <img src="assets/img/Aquí y ahora.png" alt="Proyecto Aquí y Ahora">
-                                <div class="card-titulo">
-                                    <h2>AQUÍ | AHORA</h2>
-                                </div>     
-                            </div>
-                        </label>
-                    </div>
-                </div>
-            </div>
+                    </a>
+                        <div class="portafolio-card">
+                            <img class="portafolio-img" src="assets/img/Daniela Salinas.png" alt="Proyecto Aquí y Ahora">
+                                <h2 class="card-titulo">AQUÍ | AHORA</h2>
 
+                        </div>
+                    <a href="">
+                        <div class="portafolio-card">
+                                <img class="portafolio-img" src="assets/img/PODI.png" alt="Proyecto PODI">
+                                <h2 class="card-titulo">PODI</h2>
+                        </div>
+                    </a> 
+                    </div>
+                </div>
+            </div>
         </section>
 
     <div id="nosotros"></div>
@@ -231,19 +201,21 @@
             </div>    
         </div>
         <div class="equipo-info">
-            <h2 class="titulo">CONOCE AL EQUIPO</h2>
-            <h3>Somos tu nuevo <span>aliado digital</span></h3>
-            <p>Creamos experiencias digitales para proyectos, startups y emprendimientos que buscan un aliado en la creación de branding, productos y servicios. <br><br> Somos un equipo comunicativo y dinámico, con una filosofía de trabajo humana y cercana para entender las necesidades de tu negocio o proyecto..</p>
-            <a href="#contacto"><button class="callToAction">Contactanos</button></a>  
+            <div class="equipo-texto">
+                <h2 class="titulo">CONOCE AL EQUIPO</h2>
+                <h3>Somos tu nuevo <span>aliado digital</span></h3>
+                <p>Creamos experiencias digitales para proyectos, startups y emprendimientos que buscan un aliado en la creación de branding, productos y servicios. <br><br> Somos un equipo comunicativo y dinámico, con una filosofía de trabajo humana y cercana para entender las necesidades de tu negocio o proyecto..</p>
+                <a href="#contacto"><button class="callToAction">Contactanos</button></a>  
+            </div>
         </div>
     </section>
 
     <section class="container-contacto" id="contacto">
-        <div>
+        <div class="contacto-flex">
             <div class="contacto-info">
                 <h2 class="titulo">CONTACTO</h2>
                 <h3>Trabajemos <br> <span>Juntos</span></h3>
-                <a href="mailto:crisespinosa@gmail.com"><button class="callToAction">Contacto</button></a>
+                <a href="mailto:contacto@clmedia.com.ar"><button class="callToAction">Contacto</button></a>
                 
             </div>
         </div>
@@ -276,26 +248,5 @@
     </footer>
     <div class="copy">© CLMEDIA 2022 - Todos los derechos reservados</div>
     <script src="script.js"></script>  
-     <!-- Swiper JS -->
-     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-     <!-- Initialize Swiper -->
-     <script>
-       var swiper = new Swiper(".mySwiper", {
-         slidesPerView: 1,
-         spaceBetween: 30,
-         slidesPerGroup: 1,
-         loop: true,
-         loopFillGroupWithBlank: true,
-         pagination: {
-           el: ".swiper-pagination",
-           clickable: true,
-         },
-         navigation: {
-           nextEl: ".swiper-button-next",
-           prevEl: ".swiper-button-prev",
-         },
-       });
-     </script>
 </body>
 </html>
