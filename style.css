@@ -267,6 +267,11 @@ nav ul li a{
 .pasos-container{
     width: 100%;
     background-color: #E2E2E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;;
+    
 }
 .pasos{
     display: flex;
@@ -275,7 +280,6 @@ nav ul li a{
     flex-wrap: wrap;
     min-height: 300px;
     width: 1600px;
-    margin: auto;
 }
 
 .paso{
@@ -363,6 +367,7 @@ nav ul li a{
     font-size: 16px;
     letter-spacing: 4px;
     margin-top: -10px;
+    color: #333333;
 }
 
 
@@ -486,6 +491,10 @@ nav ul li a{
 .contacto-info h3 span{
     font-family: cocoExtra;
     color: #6B8801;
+}
+
+.contacto-icon i{
+    font-size: 22px;
 }
 
 /*FOOTER*/
@@ -691,8 +700,12 @@ footer h4{
     .equipo-info{
         margin-bottom: 50px;
     }
+    /*PASOS*/
     .pasos{
         padding: 50px 0;
+    }
+    .paso{
+        margin-top: 40px;
     }
     .portafolio-card img {
         width: 305px;
