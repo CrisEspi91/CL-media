@@ -581,6 +581,7 @@ footer h4{
         font-weight: 900;
     }
     .container-nav button{
+        display: inline;
         border: none;
         background-color: #F7F7F7;
     }
