@@ -393,13 +393,12 @@ nav ul li a{
     align-items: center;
     flex-wrap:wrap ;
     padding: 20px;
-
 }
 .equipo-box h4{
     margin-top: 5px;
 }
 .equipo-img{
-    width: 140px;
+    width: 160px;
     box-shadow: 0px 20px 24px -4px rgba(15, 30, 4, 0.08), 0px 8px 8px -4px rgba(16, 40, 17, 0.03);
     border-radius: 95px;   
 }
@@ -425,7 +424,7 @@ nav ul li a{
 
 
 .equipo-info{
-    margin-top: 20px;
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -745,7 +744,10 @@ footer h4{
     margin: auto;
     align-items: center;
 }
-
+/*equipo*/
+.equipo-info{
+    margin-top: 20px;
+}
 
 .contacto-img{
     display: none;
