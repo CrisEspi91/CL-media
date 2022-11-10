@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CL MEDIA</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,9 +16,11 @@
             <div class="logo">
                 <img id="logo-blanco" class="logo-blanco" src="assets/img/logo CLMEDIA.png" alt="Logo CL media">
                 <img class="logo-negro" id="logo-negro" src="assets/img/logo CLMEDIA negro.png" alt="Logo CL media">
+                <img class="logo-negro-mobile" src="assets/img/logo CLMEDIA negro.png" alt="Logo CL media">
             </div>
             <div class="container-nav">
-                <button id="nav-btn" class="nav-btn"><img  src="assets/icons/menu 2.png" alt="Boton navegador"></button>
+                <button><i id="nav-btn" class='bx bx-menu nav-btn'></i></button>
+                <!-- <button id="nav-btn" class="nav-btn"><img  src="assets/icons/menu 2.png" alt="Boton navegador"></button> -->
                 <a href="" ></a>
                 <div id="black-nav"></div>
                 <nav id="nav">
@@ -28,9 +30,7 @@
                         <li><a href="#portafolio">PORTAFOLIO</a></li>
                         <li><a href="#nosotros">NOSOTROS</a></li>
                         <li><a href="#contacto">CONTACTO</a></li>
-                        <li><a href="#">ESP/ING</a></li>
-                        <a class="navIg" href="/"><i class='bx bxl-instagram'></i></a>
-                        <i class='bx bxl-instagram'></i>
+                        <a class="navIg" href="https://www.instagram.com/clmedia.creative/"><i class='bx bxl-instagram'></i></a>
                     </ul>
                 </nav>
             </div>
@@ -163,10 +163,10 @@
                     <h2>CESAR LEFIÑANCO</h2>
                     <H4>Director Creativo</H4>
                     <div class="equipo-icons">
-                        <a href="/"><img class="equipo-icon" src="assets/icons/instagram2.png" alt=""></a>
-                        <a href="/"><img class="equipo-icon" src="assets/icons/linkedin.png" alt=""></a>
-                        <a class="equipo-icon" href="/"><img class="equipo-icon" src="assets/icons/youtube.png" alt=""></a>
-                        <a href="/"><img class="equipo-icon" src="assets/icons/email.png" alt=""></a>
+                        <a href="https://www.instagram.com/cesar.lefinanco/"><i class='bx bxl-instagram equipo-icon'></i></a>
+                        <a href="https://www.linkedin.com/in/cesar-lefi%C3%B1anco-785913166/"><i class='bx bxl-linkedin-square equipo-icon'></i></a>
+                        <a href="https://www.youtube.com/c/CesarLefi%C3%B1anco"><i class='bx bxl-youtube equipo-icon' ></i></a>
+                        <a href="mailto:contacto@clmedia.com.ar"><i class='bx bx-envelope equipo-icon' ></i></a>
                     </div>
                 </div>
                 <div class="equipo-box">
@@ -174,8 +174,8 @@
                     <h2>MAURO PERASSO</h2>
                     <H4>Diseño Gáfico</H4>
                     <div class="equipo-icons">
-                        <a href="/"><img class="equipo-icon" src="assets/icons/instagram2.png" alt=""></a>
-                        <a href="/"><img class="equipo-icon" src="assets/icons/linkedin.png" alt=""></a>
+                        <a href="https://www.instagram.com/mauro.perasso_art/"><i class='bx bxl-instagram equipo-icon'></i></a>
+                        <a href="https://www.linkedin.com/in/mauro-perasso/"><i class='bx bxl-linkedin-square equipo-icon'></i></a>
                     </div>
                 </div>
             </div>
@@ -185,8 +185,8 @@
                     <h2>MARIA VILLALBA</h2>
                     <H4>Comunicación y contenido</H4>
                     <div class="equipo-icons">
-                        <a href="/"><img class="equipo-icon" src="assets/icons/instagram2.png" alt=""></a>
-                        <a href="/"><img class="equipo-icon" src="assets/icons/linkedin.png" alt=""></a>
+                        <a href="/"><i class='bx bxl-instagram equipo-icon'></i></a>
+                        <a href="/"><i class='bx bxl-linkedin-square equipo-icon'></i></a>
                     </div>
                 </div>
                 <div class="equipo-box">
@@ -194,8 +194,8 @@
                     <h2>FACUNDO ZUÑIGA</h2>
                     <H4>Produccón multimedia</H4>
                     <div class="equipo-icons">
-                        <a href="/"><img class="equipo-icon" src="assets/icons/instagram2.png" alt=""></a>
-                        <a href="/"><img class="equipo-icon" src="assets/icons/linkedin.png" alt=""></a>
+                        <a href="/"><i class='bx bxl-instagram equipo-icon'></i></a>
+                        <a href="/"><i class='bx bxl-linkedin-square equipo-icon'></i></a>
                     </div>
                 </div>
             </div>    
@@ -204,7 +204,7 @@
             <div class="equipo-texto">
                 <h2 class="titulo">CONOCE AL EQUIPO</h2>
                 <h3>Somos tu nuevo <span>aliado digital</span></h3>
-                <p>Creamos experiencias digitales para proyectos, startups y emprendimientos que buscan un aliado en la creación de branding, productos y servicios. <br><br> Somos un equipo comunicativo y dinámico, con una filosofía de trabajo humana y cercana para entender las necesidades de tu negocio o proyecto..</p>
+                <p>Creamos experiencias digitales para proyectos, startups y emprendimientos que buscan un aliado en la creación de branding, productos y servicios. <br><br> Somos un equipo comunicativo y dinámico, con una filosofía de trabajo humana y cercana para entender las necesidades de tu negocio o proyecto.</p>
                 <a href="#contacto"><button class="callToAction">Contactanos</button></a>  
             </div>
         </div>
@@ -242,8 +242,15 @@
         </div>
         <div class="footer-info">
             <h4>CONTACTO</h4>
-            <p>Tel: +54 9 298 420-6426</p>
-            <p>Mail: contacto@clmedia.com.ar</p>
+            <div class="contacto-icon">
+                <i class='bx bx-phone footer-icon'></i><a href="tel:5492984206426"> +54 9 298 420-6426</a> <br>
+            </div>
+            <div class="contacto-icon">
+                <i class='bx bx-envelope footer-icon' ></i><a href="mailto:contacto@clmedia.com.ar"></i>contacto@clmedia.com.ar</a>
+            </div>
+            <div class="footer-icons">
+                <a href="https://www.instagram.com/clmedia.creative/"><i class='bx bxl-instagram footer-icon'></i></a>
+            </div>
         </div>
     </footer>
     <div class="copy">© CLMEDIA 2022 - Todos los derechos reservados</div>
