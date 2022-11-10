@@ -399,7 +399,7 @@ nav ul li a{
     margin-top: 5px;
 }
 .equipo-img{
-    width: 200px;
+    width: 140px;
     box-shadow: 0px 20px 24px -4px rgba(15, 30, 4, 0.08), 0px 8px 8px -4px rgba(16, 40, 17, 0.03);
     border-radius: 95px;   
 }
@@ -722,9 +722,6 @@ footer h4{
     width: 90%;
   }
 
-  .equipo-img{
-    width: 150px;
-  }
    /*portafoio*/
    .portafolio-card{
     margin-top: 70px;
