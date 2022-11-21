@@ -785,6 +785,8 @@ footer h4{
         align-items: center;
         font-size: 34px;
         height: 100%;
+        color: #333333;
+        background-color: #98989800;
     }
 
     .nav-logo-mobile{
