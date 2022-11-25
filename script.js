@@ -1,11 +1,9 @@
 const nav = document.getElementById('nav')
 const button = document.getElementById('nav-btn')
 const background = document.getElementById('black-nav')
-let check = document.querySelector('#check')
 
 button.addEventListener('click', abrirMenu)
 background.addEventListener('click', ocultarMenu)
-check.addEventListener('click', changeLang)
 
 function abrirMenu(){
     nav.style.right='-50px'
@@ -39,11 +37,3 @@ window.onscroll = function(){
 }
 
 
-function changeLang(){
-    let id = check.checked
-    if(id === true){
-        location.href = 'eng/index.html'
-    }else{
-        location.href = '../index.html'
-    }
-}

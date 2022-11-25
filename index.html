@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,10 +30,7 @@
                         <li><a href="#portafolio">PORTAFOLIO</a></li>
                         <li><a href="#nosotros">NOSOTROS</a></li>
                         <li><a href="#contacto">CONTACTO</a></li>
-                        <div class="check-flex">
-                                <input type="checkbox" class="check"  id="check"> 
-                                <span>ESP/ENG</span>
-                        </div>
+                        <li> <a class="lang-button" href="./eng/index.html">ENG<i class='bx bx-chevron-down'></i></a></li>
                         <a class="navIg" href="https://www.instagram.com/clmedia.creative/"><i class='bx bxl-instagram'></i></a>
                     </ul>
                     
@@ -41,11 +40,10 @@
         
     </header>
 
-    <section class="container-info">
+    <main class="container-info">
         <div class="container-flex"> 
             <div class="info ">
-                <h1>CREAMOS <span class="spanInfo"> EXPERIENCIAS </span>  <br> 
-                    PROYECTAMOS <span class="spanInfo">EN GRANDE</span></h1> <br>
+                <h1>CREAMOS <span class="spanInfo"> EXPERIENCIAS</h1> <br>
                     <p>
                         Somos un equipo de creativos de la comunicación, 
                         el arte y el diseño. 
@@ -53,11 +51,17 @@
                         brindando herramientas para mostrarlo al mundo.
                     </p>
                     <a href="#contacto"><button class="callToAction">Contactanos</button></a>
-                    <a href="#servicios"><button class="callToAction2">Ver Servicios</button></a>           
+                    <a href="#servicios"><button class="callToAction3">¿Qué Hacemos?</button></a>           
             </div>
             <div class="info-50"></div>
-        </div>    
-    </section>
+        </div>  
+        <div class="contacto-video">
+            <video muted autoplay loop playsinline>
+                <source src="./assets/vid/clmediaVid.mp4" type="video/mp4">
+             </video>   
+             <div class="capa"></div>
+        </div>   
+    </main>
 
     <div id="servicios"></div>
     <section class="container-servicios">
@@ -65,29 +69,29 @@
             <div class="servicios ">
                 <div class="servicio-3">
                     <div class="servicio-box">
-                        <i class='bx bxs-layout'></i>
+                        <span class="mdi mdi-cellphone-link"></span>
                         <h2>DISEÑO WEB UX/UI</h2>
                     </div>
                     <div class="servicio-box">
-                        <i class='bx bxs-network-chart'></i>
+                        <span class="mdi mdi-pencil-ruler"></span>
                         <h2>BRANDING & DISEÑO GRAFICO</h2>
                     </div>
                     <div class="servicio-box">
-                        <i class='bx bx-play'></i>
+                        <span class="mdi mdi-movie-play"></span>
                         <h2>PRODUCCIÓN AUDIOVISUAL</h2>
                     </div>
                 </div>    
                 <div class="servicio-3">    
                     <div class="servicio-box">
-                        <i class='bx bx-show'></i>
+                        <span class="mdi mdi-eye-plus"></span>
                         <h2>MARKETING DIGITAL</h2>
                     </div>
                     <div class="servicio-box">
-                        <i class='bx bxs-user-voice'></i>
+                        <span class="mdi mdi-account-circle"></span>
                         <h2>COMMUNITY MANAGMENT</h2>
                     </div>
                     <div class="servicio-box">
-                        <i class='bx bxl-creative-commons'></i>
+                        <span class="mdi mdi-copyright"></span>
                         <h2>CREACIÓN DE CONTENIDO</h2>
                     </div>
                 </div>
@@ -97,7 +101,7 @@
                 <h2 class="titulo">SERVICIOS</h2>
                 <h3>Enfocados en crear las <span>mejores soluciones</span></h3>
                 <p>Entendemos que “un buen diseño significa un buen negocio.” Por eso ayudamos a nuestros clientes a generar o potenciar su propia identidad digital, mediante el diseño, el marketing y la comunicación eficiente.</p>
-                <a href="#contacto"><button class="callToAction">Contactanos</button></a>
+                <a href="#contacto"><button class="callToAction2">Contactanos</button></a>
                 
             </div>
         </div>
@@ -106,19 +110,19 @@
     <section class="pasos-container">
         <div class="pasos">
             <div class="paso">
-                <i class='bx bxs-analyse'></i>
+                <i class="bi bi-stars"></i>
                 <p>Estudiamos tu caso y definimos la</p>
                 <h2>1. ESTRATEGIA</h2>
                 <h3>PRIMERO LO PRIMERO</h3>
             </div>
             <div class="paso">
-                <i class='bx bxs-edit-alt'></i>
+                <i class="bi bi-stars"></i>
                 <p>Con objetivos claros, avanzamos al</p>
                 <h2>2. DISEÑO</h2>
                 <h3>¡CREAR, CREAR, CREAR!</h3>
             </div>
             <div class="paso">
-                <i class='bx bxs-bolt'></i>
+                <span class="mdi mdi-lightning-bolt"></span>
                 <p>Con lo creado, vamos a la</p>
                 <h2>3. ACCIÓN</h2>
                 <h3>PUBLICAR Y PROMOCIONAR CONTENIDO</h3>
@@ -207,9 +211,9 @@
         <div class="equipo-info">
             <div class="equipo-texto">
                 <h2 class="titulo">CONOCE AL EQUIPO</h2>
-                <h3>Somos tu nuevo <span>aliado digital</span></h3>
+                <h3>Somos tu nuevo <br><span>aliado digital</span></h3>
                 <p>Creamos experiencias digitales para proyectos, startups y emprendimientos que buscan un aliado en la creación de branding, productos y servicios. <br><br> Somos un equipo comunicativo y dinámico, con una filosofía de trabajo humana y cercana para entender las necesidades de tu negocio o proyecto.</p>
-                <a href="#contacto"><button class="callToAction">Contactanos</button></a>  
+                <a href="#contacto"><button class="callToAction2">Contactanos</button></a>  
             </div>
         </div>
     </section>
