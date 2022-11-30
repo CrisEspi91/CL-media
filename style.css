@@ -995,6 +995,12 @@ footer h4{
     margin: auto;
     align-items: center;
 }
+
+.contacto-img{
+    margin-top: 40px;
+    width: 100%;
+    height: 300px;
+}
 /*equipo*/
 .equipo-info{
     margin-top: 20px;
@@ -1002,10 +1008,7 @@ footer h4{
 .equipo-info p{
     padding: 20px;
 }
-.contacto-img{
-    width: 100%;
-    height: 300px;
-}
+
 footer{
     text-align: center;
 }
