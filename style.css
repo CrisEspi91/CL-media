@@ -296,6 +296,10 @@ nav ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
 }
 .container-flex{
     height: 600px;
