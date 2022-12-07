@@ -493,7 +493,7 @@ nav ul li a{
  text-align: center;
 }
 .portafolio-titulo{
-    margin: 100px 0;
+    margin-top: 40px;
     margin-left: 9.5%;
 }
 .portafolio-titulo h3{
@@ -743,6 +743,7 @@ footer h4{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    height: 100vh;
 
  }
 
@@ -761,7 +762,7 @@ footer h4{
     height: 500px;
  }
  .proyecto-daniela{
-    background-image: url(./assets/img/DS\ 8.webp);
+    background-image: url(./assets/img/macDaniela.webp);
     background-position: center left;
     background-repeat: no-repeat;
     background-size: 60%;
@@ -784,20 +785,41 @@ footer h4{
 
  .proyecto-info p{
     margin-bottom: 30px;
+    padding-right: 30px;
  }
  .proyecto-img img{
     width: 300px;
+ }
+
+ .img-gallery-daniela img{
+    width: 300px !important;
+    margin: 20px;
  }
 
  .proyecto-imgs{
     margin: auto;
     width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 200px;
  }
+
+ .proyecto-imgs-daniela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 150px;
+    margin: auto;
+ }
+
+.img-gallery-daniela-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .proyecto-imgs img{
     width: inherit;
@@ -1115,6 +1137,10 @@ footer{
   width: 100%;
   height: 300px;
   overflow: hidden;
+}
+
+.img-gallery-daniela-flex{
+   flex-direction: column;
 }
  .proyecto-flex{
     display: flex;
