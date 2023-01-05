@@ -431,9 +431,7 @@ nav ul li a{
 
 
 /* PASOS */
-.swiper1{
-    width: 1100px;
-}
+
 .pasos-container{
     width: 100%;
     background-color: #e8e8e8;
@@ -692,60 +690,13 @@ nav ul li a{
     background-position: center center;
 }
 
-
-/*FOOTER*/
-footer{
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
-    flex-wrap: wrap;
-    background-color: #333333;
-    color: #E2E2E2;
-    font-size: 18px;
-    line-height: 30px;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    font-weight: 900;
-}
-
-footer h4{
-    color: #6B8801;
-}
-.footer-info{
-    margin: 20px;
-}
-.footer-info a{
-    display: flex;
-    color: #F7F7F7;
-    height: 35px;
-    align-items: center;
-}
-
-.footer-icon{
-    margin-right: 10px;
-    font-size: 22px;
-    color: #6B8801;
-    text-align: center;
-}
-.contacto-icon{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.copy{
-    text-align: center;
-    height: 25px;
-    padding-bottom: 20px;
-    color: #E2E2E2;
-    background-color: #333333;
-}
  /*FLEX SLIDER*/
  .swiper2{
     display: none;
   }
 .swiper1{
     height: 60vh;
+    width: 1200px;
 }
 
 .swiper-button-next{
@@ -782,20 +733,6 @@ footer h4{
     font-weight: 900;
     font-family: cocoExtra ;
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  /*Proyectos*/
  .proyecto{
@@ -918,6 +855,54 @@ footer h4{
 }
 
 
+
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    background-color: #333333;
+    color: #E2E2E2;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-weight: 900;
+}
+
+footer h4{
+    color: #6B8801;
+}
+.footer-info{
+    margin: 20px;
+}
+.footer-info a{
+    display: flex;
+    color: #F7F7F7;
+    height: 35px;
+    align-items: center;
+}
+
+.footer-icon{
+    margin-right: 10px;
+    font-size: 22px;
+    color: #6B8801;
+    text-align: center;
+}
+.contacto-icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.copy{
+    text-align: center;
+    height: 25px;
+    padding-bottom: 20px;
+    color: #E2E2E2;
+    background-color: #333333;
+}
 
 
 
