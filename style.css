@@ -1082,15 +1082,18 @@ background: linear-gradient(90deg, rgba(0,0,0,0.5028898522299545) 37%, rgba(0,0,
   }
   .swiper2{
     display: flex;
+    height: 55vh;
   }
-  .swiper-pagination{
+  .swiper-rtl{
     display: none;
   }
+  
   .swiper-button-next{
-    color: #6b88014d !important;
+    display: none !important;
+
   }
   .swiper-button-prev{
-    color: #6b88014d !important;
+    display: none !important;
   }
   .card{
     width: 350px;
