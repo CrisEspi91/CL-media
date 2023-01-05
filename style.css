@@ -485,7 +485,7 @@ nav ul li a{
     align-items: center;
 }
 .portafolio{
-    width: 1600px;
+    width: 1400px;
 
 }
 
@@ -737,11 +737,69 @@ footer h4{
     color: #E2E2E2;
     background-color: #333333;
 }
+ /*FLEX SLIDER*/
+ .swiper2{
+    display: none;
+  }
+.swiper1{
+    height: 60vh;
+}
+
+.swiper-button-next{
+    color: #6B8801 !important;
+}
+.swiper-button-prev{
+    color: #6B8801 !important;
+}
+.swiper-pagination-bullet{
+    background: #6B8801 !important;
+}
+ .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 40px -12px rgba(16, 24, 40, 0.14);
+ }
+ .card img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+ }
+
+ .card-info h3{
+    text-align: center;
+    padding: 18px;
+    letter-spacing: 0.2em;
+    color: #1C1C1C;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: cocoExtra ;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /*Proyectos*/
  .proyecto{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
     margin-bottom: 100px;
     height: 100vh;
 
@@ -759,14 +817,14 @@ footer h4{
     background-position: center left;
     background-repeat: no-repeat;
     background-size: 60%;
-    height: 500px;
+    height: 100vh;
  }
  .proyecto-daniela{
     background-image: url(./assets/img/macDaniela.webp);
     background-position: center left;
     background-repeat: no-repeat;
     background-size: 60%;
-    height: 500px;
+    height: 100vh;
  }
  .proyecto-flex{
     display: flex;
@@ -1030,6 +1088,26 @@ background: linear-gradient(90deg, rgba(0,0,0,0.5028898522299545) 37%, rgba(0,0,
         margin-bottom: 50px;
         text-align: center;
   }
+  /* swiper */
+  .mySwiper{
+    display: none;
+  }
+  .swiper2{
+    display: flex;
+  }
+  .swiper-pagination{
+    display: none;
+  }
+  .swiper-button-next{
+    color: #6b88014d !important;
+  }
+  .swiper-button-prev{
+    color: #6b88014d !important;
+  }
+  .card{
+    width: 350px;
+  }
+
    /* PORTAFOLIO */
    .portafolio{
     width: 100%;
