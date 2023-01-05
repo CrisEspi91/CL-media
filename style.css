@@ -431,6 +431,9 @@ nav ul li a{
 
 
 /* PASOS */
+.swiper1{
+    width: 1100px;
+}
 .pasos-container{
     width: 100%;
     background-color: #e8e8e8;
