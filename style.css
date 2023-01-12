@@ -495,12 +495,9 @@ nav ul li a{
     margin-top: 100px;
 }
 
-.portafolio h3{
- text-align: center;
-}
 .portafolio-titulo{
     margin-top: 40px;
-    margin-left: 9.5%;
+    margin-left: 25px;
 
 }
 .portafolio-titulo h3{
@@ -544,6 +541,9 @@ nav ul li a{
     height: auto;
 }
 
+.centrado{
+    text-align: center;
+}
 .portafolio-card:hover{
     box-shadow: 0px 32px 44px -12px rgba(3, 8, 20, 0.406);
    }
