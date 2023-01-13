@@ -497,7 +497,7 @@ nav ul li a{
 
 .portafolio-titulo{
     margin-top: 40px;
-    margin-left: 25px;
+    margin-left: 10%;
 
 }
 .portafolio-titulo h3{
@@ -514,6 +514,7 @@ nav ul li a{
     font-size: 14px;
     letter-spacing: 2px;
 }
+
 .portafolio-flex{
     display: flex;
     justify-content: space-evenly;
@@ -710,10 +711,13 @@ nav ul li a{
 }
 
 .swiper-button-next{
-    color: #6B8801 !important;
+    color: #333333 !important;
+    padding-left: 50px;
+
 }
 .swiper-button-prev{
-    color: #6B8801 !important;
+    color: #333333 !important;
+    padding-right: 50px;
 }
 .swiper-pagination-bullet{
     background: #6B8801 !important;
@@ -777,7 +781,6 @@ nav ul li a{
  }
 
 
-
 .proyecto-ume{
     display: flex;
     justify-content: flex-start !important;
@@ -786,13 +789,38 @@ nav ul li a{
     margin:  100px auto;
 
 }
- .proyecto-cesar{
-    background-image: url(./assets/img/macCesar.webp);
-    background-position: center left;
-    background-repeat: no-repeat;
-    background-size: 60%;
-    height: 100vh;
- }
+
+.proyecto-cesar{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    margin-top: 50px;
+
+}
+.proyecto-cesar img{
+    width: 100%;
+}
+
+.img-cesar-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+.info-cesar{
+    margin-top: 500px;
+}
+.img-cesar{
+    width: 1200px;
+    margin: 70px auto;
+}
+.img-cesar img{
+    width: 100%;
+    margin-bottom: 30px;
+}
  .proyecto-daniela{
     background-image: url(./assets/img/macDaniela.webp);
     background-position: center left;
@@ -815,18 +843,23 @@ nav ul li a{
     flex-wrap: wrap;
     height: 100%;
  }
+
+ .proyecto-flex img{
+    width: 40%;
+ }
  .proyecto-50{
     width: 50%;
  }
  .proyecto-info{
     width: 50%;
-    margin-top: -100px;
+
  }
 
  .proyecto-info p{
+    padding-right: 30px;
     margin-bottom: 30px;
-
  }
+
  .proyecto-img img{
     width: 300px;
  }
@@ -921,6 +954,9 @@ nav ul li a{
 
 .img-gallery-podi-flex img{
     width: 50%;
+}
+.img-gallery-podi-flex h4{
+    margin-bottom: 50px;
 }
 
 .podi-brochures-flex{
@@ -1034,7 +1070,24 @@ footer h4{
     background-color: #333333;
 }
 
+.info-tutoriales{
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-bottom: 100px;
 
+}
+.img-gallery-tutoriales-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img-gallery-tutoriales-flex img{
+    width: 80%;
+}
+.img-gallery-tutoriales-flex h4{
+    text-align: center;
+}
 
 @media only screen and (max-width: 768px) {
      /*header*/
@@ -1302,19 +1355,26 @@ footer{
  /*PROYECTOS*/
  .proyecto-container{
     width: 100%;
-    margin-top: 370px;
+    margin-top: 40vh;
  }
 .proyecto{
     margin-bottom: 50px;
     padding: 10px 0;
     width: 100%;
 }
-.proyecto-cesar{
-    background-image: none;
+
+
+.img-cesar{
+    width: 100%;
+}
+.img-cesar-flex{
+    margin-top: 300px;
 }
 .proyecto-daniela{
     background-image: none;
+    height: 50vh;
 }
+
 .proyecto-podi{
     display: none;
 }
@@ -1332,16 +1392,7 @@ footer{
     background-image: none;
 
  }
- .img-fondo{
-  background-image: url(./assets/img/Aquí\ y\ ahora.webp);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 300px;
-  overflow: hidden;
-  margin-top: 300px;
- }
+
 .img-fondo-daniela{
   background-image: url(./assets/img/DS\ 8.webp);
   background-position: center center;
@@ -1350,7 +1401,7 @@ footer{
   width: 100%;
   height: 300px;
   overflow: hidden;
-  margin-top: 300px;
+  margin-top: 100px;
 }
 
 .img-fondo-podi{
@@ -1359,8 +1410,9 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 300px;
+    height: 250px;
     overflow: hidden;
+    margin-bottom: 150px;
   }
 
 .img-gallery-daniela-flex{
@@ -1381,7 +1433,14 @@ footer{
     width: 100%;
     padding: 20px 20px;
     text-align: center;
-    margin-top: -400px;
+
+ }
+.proyecto-info p{
+    padding-right: 0
+}
+ .info-cesar img{
+    width: 100%;
+    margin-top: -70px;
  }
 
  .proyecto-img img{
@@ -1445,6 +1504,9 @@ footer{
 .proyecto-video{
     display: none;
 }
+.video-section{
+    margin-bottom: 100px;
+}
 /*PODI*/
 .img-gallery-podi-flex{
     width: 100%;
@@ -1490,6 +1552,12 @@ width: 100%;
     
 }
 
+.info-tutoriales{
+    margin-left: 0;
+}
+.img-gallery-tutoriales-flex img {
+    width: 100%;
+}
 /*contacto*/
 .container-contacto{
     height: auto;
