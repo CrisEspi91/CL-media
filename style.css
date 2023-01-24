@@ -740,13 +740,22 @@ nav ul li a{
     width: 300px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 10px 40px -12px rgba(16, 24, 40, 0.14);
+    position: relative;
+    display: inline-block;
+    text-align: center;
  }
  .card img{
     width: 100%;
     border-radius: 8px 8px 0 0;
  }
-
+.card-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    z-index: 54;
+    width: 100%;
+}
  .card-info h3{
     text-align: center;
     padding: 18px;
@@ -755,7 +764,9 @@ nav ul li a{
     font-size: 14px;
     font-weight: 900;
     font-family: cocoExtra ;
+    background-color: #e2e2e2dd;
  }
+
 
  /*Proyectos*/
  .proyecto{
@@ -1271,9 +1282,9 @@ background: linear-gradient(90deg, rgba(0,0,0,0.5028898522299545) 37%, rgba(0,0,
     }
 
     .portafolio-titulo {
-        margin-right: 10%;
-        padding-left: 0;
+
         margin-bottom: 50px;
+        padding-left: 0;
         text-align: center;
         margin-top: -240px !important;
         width: 100%;
@@ -1300,6 +1311,12 @@ background: linear-gradient(90deg, rgba(0,0,0,0.5028898522299545) 37%, rgba(0,0,
   .card{
     width: 350px;
   }
+
+  .card-info{
+
+    transform: translate(-50%, 133%);
+
+}
 
    /* PORTAFOLIO */
    .portafolio{
@@ -1382,7 +1399,7 @@ footer{
     width: 100%;
 }
 .img-cesar-flex{
-    margin-top: 300px;
+    margin-top: 100px;
 }
 .proyecto-daniela{
     background-image: none;
@@ -1451,6 +1468,9 @@ footer{
  }
 .proyecto-info p{
     padding-right: 0
+}
+.info-cesar{
+    margin-top: 350px;
 }
  .info-cesar img{
     width: 100%;
