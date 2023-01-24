@@ -32,6 +32,7 @@
     box-shadow: 0px 20px 24px -4px rgba(15, 30, 4, 0.08), 0px 8px 8px -4px rgba(16, 40, 17, 0.03);
     cursor: pointer;
     transition: 0.4s;
+    letter-spacing: 2px;
 }
 .callToAction:hover{
     background-color:#6b8801b8;
@@ -49,6 +50,7 @@
     cursor: pointer;
     box-shadow: 0px 20px 24px -4px rgba(15, 30, 4, 0.08), 0px 8px 8px -4px rgba(16, 40, 17, 0.03);
     transition: 0.4s;
+    letter-spacing: 2px;
 }
 
 .callToAction2:hover{
@@ -154,10 +156,11 @@ header{
 .container-header{
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin: auto;
     padding: 8px 0px;
+    width: 1070px;
 }
 
 .container-nav button{
@@ -303,9 +306,9 @@ nav ul li a{
 .container-flex{
     height: 600px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-    width: 1600px;
+    width: 1200px;
 }
 
 .info{
@@ -363,10 +366,11 @@ nav ul li a{
 
 .servicios-flex{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     margin: 110px auto;
+    width: 1200px;
 }
 
 .container-servicios h3{
@@ -397,6 +401,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-left: -30px;
 }
 
 
@@ -451,7 +456,7 @@ nav ul li a{
     align-items: center;
     flex-wrap: wrap;
     min-height: 300px;
-    width: 1600px;
+    width: 1200px;
 }
 
 .paso{
@@ -491,13 +496,15 @@ nav ul li a{
     margin-top: 100px;
 }
 .portafolio{
-    width: 1400px;
+    width: 1200px;
     margin-top: 100px;
 }
 
 .portafolio-titulo{
     margin-top: 40px;
-    margin-left: 10%;
+    padding-left: 5.5%;
+    width: 1200px;
+    margin: auto;
 
 }
 .portafolio-titulo h3{
@@ -567,10 +574,11 @@ nav ul li a{
 /* EQUIPO*/
 .container-equipo{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-start;
     flex-wrap:wrap ;
-    margin: 100px 0;
+    margin: 100px auto;
+    width: 1200px;
 }
 
 .equipo{
@@ -647,9 +655,10 @@ nav ul li a{
 .container-contacto{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     margin: auto;
+    width: 1200px;
 }
 
 .container-contacto h3{
@@ -664,10 +673,10 @@ nav ul li a{
 }
 .contacto-flex{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 1600px;
+    width: 1200px;
 }
 
 .contacto-info{
@@ -707,7 +716,7 @@ nav ul li a{
   }
 .swiper1{
     height: 60vh;
-    width: 1200px;
+    width: 1110px;
 }
 
 .swiper-button-next{
@@ -815,7 +824,7 @@ nav ul li a{
 }
 .img-cesar{
     width: 1200px;
-    margin: 70px auto;
+    margin: 10px auto;
 }
 .img-cesar img{
     width: 100%;
@@ -1173,6 +1182,7 @@ footer h4{
     .container-flex{
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
     .info{
         text-align: center;
@@ -1198,9 +1208,6 @@ footer h4{
     }
     .container-info{
         height: 100vh;
-    }
-    .container-flex{
-        width: 100%;
     }
     .info{
         margin-top: 100px;
@@ -1236,6 +1243,7 @@ background: linear-gradient(90deg, rgba(0,0,0,0.5028898522299545) 37%, rgba(0,0,
     .servicio-3{
         flex-direction: column;
         flex-wrap: nowrap;
+        margin-left: 0;
     }
     .servicio-box{
         width: 150px;
@@ -1252,6 +1260,10 @@ background: linear-gradient(90deg, rgba(0,0,0,0.5028898522299545) 37%, rgba(0,0,
     .paso{
         margin-top: 40px;
     }
+
+    .container-portafolio{
+        margin-bottom: -100px;
+    }
     .portafolio-card img {
         width: 305px;
         height: 149px;
@@ -1260,9 +1272,11 @@ background: linear-gradient(90deg, rgba(0,0,0,0.5028898522299545) 37%, rgba(0,0,
 
     .portafolio-titulo {
         margin-right: 10%;
+        padding-left: 0;
         margin-bottom: 50px;
         text-align: center;
         margin-top: -240px !important;
+        width: 100%;
   }
   /* swiper */
   .mySwiper{
