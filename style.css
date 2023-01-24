@@ -716,16 +716,16 @@ nav ul li a{
   }
 .swiper1{
     height: 60vh;
-    width: 1110px;
+    width: 1140px;
 }
 
 .swiper-button-next{
-    color: #333333 !important;
+    color: #989898 !important;
     padding-left: 50px;
 
 }
 .swiper-button-prev{
-    color: #333333 !important;
+    color: #989898 !important;
     padding-right: 50px;
 }
 .swiper-pagination-bullet{
