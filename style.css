@@ -1292,6 +1292,7 @@ background: linear-gradient(90deg, rgba(0,0,0,0.5028898522299545) 37%, rgba(0,0,
   }
   .card{
     width: 350px;
+    height: 242px;
   }
 
   .card-info{
