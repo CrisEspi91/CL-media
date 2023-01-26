@@ -714,6 +714,8 @@ nav ul li a{
     display: inline-block;
     text-align: center;
     border-radius: 0 0 8px 8px;
+    height: 208px;
+    transition: 0.3s;
  }
  .card img{
     width: 100%;
