@@ -1063,6 +1063,9 @@ footer h4{
     color: #E2E2E2;
     background-color: #333333;
 }
+.tutoriales{
+    margin-top: 100px;
+}
 
 .info-tutoriales{
     justify-content: flex-start;
